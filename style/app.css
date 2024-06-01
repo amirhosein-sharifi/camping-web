@@ -1,0 +1,43 @@
+:root{
+    --primary-color:#E76F51;
+    --secondary-color:#F8E1D8;
+    --gary:#d2d2d2;
+    --dark:#3b3735;
+    --primary-font: "roboto";
+    --pramary-font-md:"roboto medium";
+    --secondary-font:"Archivo black";
+}
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+* , *::after , *::before{
+    box-sizing: inherit;
+}
+body{
+    font-size: 1.6rem;
+    /* background-color: var(--primary-color); */
+    line-height: 1.6;
+    font-family: var(--primary-font);
+    background-color: #faf4f2;
+}
+a{
+    text-decoration: none;
+}
+header
+nav
+applogo
+desktopmenu
+desktopmenuItem
+desktopmenuItemLink
+mobilenavmenu
+mobilenavmenutitle
+mobilemenu
+mobilemenuItem
+mobilemenuItemLink
+mobilenavmenulink
+mobilenavmenulinks
+desktopnavlink
+desktopnavlinks
+navbtn
+navbtnline
